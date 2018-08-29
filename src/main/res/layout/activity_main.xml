@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunset_on_railway_station"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Get Employee Details"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:paddingTop="20dp"
+        android:textColor="#454545"
+        />
+
+    <TextView
+        android:id="@+id/search_basis"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="On what basis do you want to search for an employee"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="20sp"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/select_spinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        style="@style/spinner_style"
+        >
+    </Spinner>
+
+    <Button
+        style="@style/AppTheme.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:onClick="insert"
+        android:text="Add an employee"
+        android:theme="@style/AppTheme.Button" />
+
+    <Button
+        style="@style/AppTheme.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="delete"
+        android:text="Delete an employee from database"
+        android:theme="@style/AppTheme.Button" />
+
+</LinearLayout>

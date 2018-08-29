@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desigview"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Designation"
+
+        style="@style/textview_style"
+        android:layout_marginStart="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desigvalueview"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginStart="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameview"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:text="Name"
+        android:layout_marginLeft="10dp"
+        style="@style/textview_style"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/namevalueview"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/railphnview"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        style="@style/textview_style"
+        android:text="Railway Office Phone Number"
+        android:layout_marginStart="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/railphnvalueview"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/railresiview"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        style="@style/textview_style"
+        android:text="Railway Residence Phone Number"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/railresivalueview"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BSNLofficephnview"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        style="@style/textview_style"
+        android:layout_marginStart="10dp"
+        android:text="BSNL Office Phone Number"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BSNLofficephnvalueview"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BSNLresphnview"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        style="@style/textview_style"
+        android:layout_marginStart="10dp"
+        android:text="BSNL Residence Phone Number"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BSNLresphnvalueview"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+
+        android:layout_marginLeft="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/sunset_on_railway_station"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/search"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Railway Office Telephone Number"
+        android:inputType="text"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/search_btn"
+        android:onClick="retrieve"
+        android:textColor="#ffffff"
+        />
+</LinearLayout>

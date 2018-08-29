@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+
+
+
+    <EditText
+        android:id="@+id/desigview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter designation"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nameview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/railofficephn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter Railway Office Phone"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/railresiphn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter Railway Residence Phone"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/bsnlofficephn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter BSNL Office phone"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/bsnlresiphn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter BSNL Residence phone"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/mobilephn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter Mobile phone"
+        android:inputType="textPersonName" />
+    <Button
+        android:id="@+id/insertbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="insertdetails"/>
+</LinearLayout>
